@@ -14,7 +14,7 @@ nav {
   }
 
   color: $navbar-font-color;
-  @extend .z-depth-1;
+  @extend .z-depth-0;
   background-color: $primary-color;
   width: 100%;
   height: $navbar-height-mobile;
@@ -140,7 +140,7 @@ nav {
       }
 
       &:hover {
-        background-color: rgba(0,0,0,.1);
+        background-color: rgba(0,0,0,0);
       }
     }
 

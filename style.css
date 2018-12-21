@@ -1,0 +1,102 @@
+/*
+Theme Name: Casa blanca Sport
+Author: COMM Media Network S.A.S
+Author URI: 
+Description: Tema Privado de Trends News desarrollado por COMM Media Network S.A.S.
+-------------------------------------------------------------- */
+
+@font-face {
+	font-family: 'SocMed';
+	src:url('https://trendnews.com.co/fonts/SocMed.eot?-fa4xd3');
+	src:url('https://trendnews.com.co/fonts/SocMed.eot?#iefix-fa4xd3') format('embedded-opentype'),
+		url('https://trendnews.com.co/fonts/SocMed.woff?-fa4xd3') format('woff'),
+		url('https://trendnews.com.co/fonts/SocMed.ttf?-fa4xd3') format('truetype'),
+		url('https://trendnews.com.co/fonts/SocMed.svg?-fa4xd3#SocMed') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.material-icons.s {
+    font-family: 'SocMed'!important;
+}
+
+.facebook::before {content: "\e602";} .facebook-2::before {content: "\e603";} .twitter::before {content: "\e604";} .tumblur::before {content: "\e605";}
+.youtube::before {content: "\e606";} .linkedin::before {content: "\e608";} .instagram::before {content: "\e609";} .pinterest::before {content: "\e60a";}
+.pinterest-2::before {content: "\e60b";} .dropbox::before {content: "\e60F";} .windows::before {content: "\e616";}
+.apple::before {content: "\e639";} .android::before {content: "\e63a";} .whatsapp::before {content: "\e643";}
+
+
+.theme-2 {
+    background-color: #1C1C33
+}
+
+
+/* main ----------------------------- */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bg {
+    background-color: #fafafa;
+}
+
+html {
+background-color: #fff
+}
+
+html {
+    font-family: "museo-sans", sans-serif;
+  }
+
+.wp-caption {
+    width: auto!important
+}
+
+/* helpers ----------------------------- */
+.vfluid {
+    height: 100%
+}
+
+.fluid {
+    width: 100%
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.no-padding {
+    padding: 0!important
+}
+
+.view-more {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+}
+
+.no-border {
+    border:0!important;
+}
+
+@media only screen and (max-width: 600px) {
+    .not-movile-container {
+        width: 100%
+    }
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }

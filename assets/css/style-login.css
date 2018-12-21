@@ -1,0 +1,76 @@
+/*
+   Style Login
+*/
+
+#login h1 a, .login h1 a {
+    background-image: url(https://garitma.com/wp-content/uploads/2017/11/logo-garitma-horizontal.svg);
+    height:50px;
+    width:320px;
+    background-size: 220px 65px;
+    background-repeat: no-repeat;
+    }
+
+body.login {
+    background-image: url(https://garitma.com/wp-content/uploads/hasta-la-cima-del-cielo-garitma.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body.login div#login p#backtoblog {
+    display: none;
+}
+
+body.login div#login {
+    width: 320px;
+    padding: 0;
+    margin: auto;
+    box-shadow: 0 0 35px 0px rgba(0, 0, 0, 0.070);
+    background: #fff;
+}
+
+body.login div#login p#nav {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+#user_login,
+#user_pass , #wp-submit, .wp-core-ui 
+{
+    box-shadow: none;
+}
+
+#wp-submit {
+    background: #1a237e;
+    color: #fff!important;
+}
+
+.privacy-policy-link {
+    color: #1a237e
+}
+
+body.login div#login form#loginform p.forgetmenot {
+    display: none;
+}
+
+body.login div#login form#loginform p.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body.login div#login form#loginform p.submit input#wp-submit, #wp-submit {
+    width: 100%;
+    text-shadow: none;
+    color: #0065a1;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    height: auto;
+}
+
+.login form {
+    box-shadow: none!important;
+}
