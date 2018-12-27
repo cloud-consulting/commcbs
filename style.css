@@ -17,6 +17,7 @@ Description: Tema Privado de Trends News desarrollado por COMM Media Network S.A
 }
 
 
+
 .material-icons.s {
     font-family: 'SocMed'!important;
 }
@@ -25,11 +26,6 @@ Description: Tema Privado de Trends News desarrollado por COMM Media Network S.A
 .youtube::before {content: "\e606";} .linkedin::before {content: "\e608";} .instagram::before {content: "\e609";} .pinterest::before {content: "\e60a";}
 .pinterest-2::before {content: "\e60b";} .dropbox::before {content: "\e60F";} .windows::before {content: "\e616";}
 .apple::before {content: "\e639";} .android::before {content: "\e63a";} .whatsapp::before {content: "\e643";}
-
-
-.theme-2 {
-    background-color: #1C1C33
-}
 
 
 /* main ----------------------------- */
@@ -48,7 +44,7 @@ background-color: #fff
 }
 
 html {
-    font-family: "museo-sans", sans-serif;
+    font-family: proxima-nova, sans-serif;
   }
 
 .wp-caption {
@@ -56,6 +52,7 @@ html {
 }
 
 /* helpers ----------------------------- */
+
 .vfluid {
     height: 100%
 }
@@ -89,14 +86,103 @@ html {
     .not-movile-container {
         width: 100%
     }
+
+    
+}
+
+@media only screen and (min-width: 993px) {
+.content {
+    margin-top: 40px;
+  }
 }
 
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background: #fafafa
   }
 
   main {
     flex: 1 0 auto;
   }
+
+
+
+  /* ----------------------------- */
+
+  .center-icon {
+    position: absolute;height: 100%; width: 100%;left: 0;top: 0;text-align: center;vertical-align: middle;
+  }
+
+  .title-entry {
+    margin: 15px 0;
+    color: #303030;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 44px;
+  }
+
+  .square {
+      border-radius: 0!important;
+  }
+
+  .tag {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    text-transform: uppercase;
+  }
+
+  .share {
+      display: none;
+  }
+
+  .single .share {
+      display: block;
+  }
+  
+
+
+  /* Nav ----------------------------- */
+
+  .sidenav-trigger {
+      padding: 0 15px
+  }
+
+  .logo {
+    display: inline-block;
+    height: 100%;
+}
+
+.logo>img {
+    vertical-align: middle
+}
+
+.tabs {
+    height: 28px;
+}
+
+.tabs .tab {
+    line-height: 28px;
+    height: 28px;
+}
+
+
+/* ad ----------------------------- */
+.ad {
+    margin-bottom: 15px
+}
+
+.ad::after {content: "Publicidad";
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    top: calc(100% + 10px);
+    width: 100%;
+    color: #999;
+    letter-spacing: 2px;
+    font-size: 12px;
+    z-index: 1;
+    margin-top: 10px;
+}

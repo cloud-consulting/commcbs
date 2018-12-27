@@ -1,11 +1,13 @@
 <?php
 
 /**
- * The template for displaying all archive post.
- * @package Garitma
- * @author Garitma
- * @link http://garitma.com
+ * Page Name: Blog
+ *
+ * @package WordPress
+ * @subpackage Trends News
+ * @since Trends News 1.0
  */
+
 get_header(); ?>
 
 
@@ -43,6 +45,4 @@ get_header(); ?>
 
     </div>
 </div>
-
-
 <?php get_footer(); ?>

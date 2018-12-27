@@ -1,56 +1,60 @@
 <?php
 
 /**
- * The template for displaying home.
- * @package Garitma
- * @author Garitma
- * @link http://garitma.com
- */
-get_header(); ?>
-
-<?php
-
-/**
  * Template Name: Home
  *
- * @package WordPress
- * @subpackage Garitmatic
- * @since Garitmatic 1.0
+ * @package COMMM
+ * @subpackage CASA BLANCA SPORTS
+ * @since CASA BLANCA SPORTS 1.0
  */
 
 get_header(); ?>
 
-<?php do_action('news_notify') ?>
-
-<div class="row">
-
+<div id="Content">
+	    <div class="row">
 
 
-  <div id="content" role="main">
+        <div class="col s12 l8">
+            <div class="col s12">
+                <?php do_action('featured_feed') ?>
+            </div>
 
-    <div class="col s12 no-padding">
+            <div class="col s12">
+                <?php do_action('gallery_feed') ?>
+            </div>
 
-        <div class="col s12 no-padding">
-          <?php do_action('featured_feed') ?>
+            <div class="col s12 no-padding">
+                 <?php do_action('first_feed') ?>
+            </div>
+
+            <div class="col s12 no-padding">
+                 <?php do_action('second_feed') ?>
+            </div>
+
         </div>
+
+        <div class="col s12 l4">
+            <?php do_action('sidebar') ?>
+        </div>
+
         
 
-      <div class="center">
-        <?php do_action('home_after_feature_ads') ?>
-      </div>
 
-      <div class="col s12">
-        <div class="col s12 l8">
-         <?php do_action('first_feed') ?>
-        </div>
 
-        <div class="col s12 l4 no-padding">
-          <?php do_action('first_side_feed') ?>
-        </div>
-      </div>
+
+
+            <?php if (have_posts()) : ?>
+            <?php while (have_posts()) // Post Loop
+            : the_post(); ?>
+            <?php endwhile; ?>
+        <?php endif; ?>
+
+
+
 
     </div>
-  </div>
 </div>
+
+
 
 <?php get_footer(); ?>

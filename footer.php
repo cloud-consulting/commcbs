@@ -9,40 +9,12 @@
 
 
 
-  <footer class="page-footer grey darken-4">
-    <div class="container hide">
-
-      <div class="row">
-
-        <div class="col s12 m2">
-            Home
-        </div>
-
-        <div class="col s12 m2">
-            Entradas
-        </div>
-
-        <div class="col s12 m3">
-            Política y privacidad
-        </div>
-
-        <div class="col s12 m2">
-            Publicidad
-        </div>
-
-        <div class="col s12 m2">
-            Suscíbete
-        </div>
- 
-
-
-      </div>
-    </div>
+  <footer class="page-footer black">
 
 
     <div class="footer-copyright center">
       <div class="container">
-      <a  class="white-text" href="#">© Casa Blanca Sport 2018 - Diseñado y Comercializado por COMM Media Network S.A.S</a>
+      <a  class="white-text" href="#">© Casa Blanca Sports 2019 - Diseñado y Comercializado por COMM Media Network S.A.S</a>
       </div>
     </div>
   </footer>

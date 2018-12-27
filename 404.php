@@ -1,12 +1,4 @@
-<?php
-
-/**
- * The template for displaying error page.
- * @package Garitma
- * @author Garitma
- * @link http://garitma.com
- */
-get_header(); ?>
+<?php get_header(); ?>
 
 
     <div id="content" role="main" class="containter">
@@ -22,4 +14,9 @@ get_header(); ?>
 </div>
 
 
-<?php get_footer(); ?>
+
+        
+
+        </div>
+    </div>
+    <?php get_footer(); ?>
