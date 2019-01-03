@@ -46,6 +46,7 @@ get_header(); ?>
                 </div>
 
                 <div class="col s12">
+                <h3>Casa blanca TV</h3>
                 <?php do_action('gallery_feed') ?>
             </div>
 
