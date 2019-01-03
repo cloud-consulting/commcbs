@@ -60,10 +60,10 @@
 
     <div class="nav-content hide-on-med-and-down">
       <ul class="tabs tabs-transparent blue valign-wrapper">
-        <li><a href="<?php echo esc_url(home_url('/equipos/once-caldas')); ?>">Once caldas</a></li>
-        <li><a href="<?php echo esc_url(home_url('/equipos/atletico-nacional')); ?>">Atletico Nacional</a></li>
-        <li><a href="<?php echo esc_url(home_url('/equipos/millonarios-fc')); ?>">Millonarios FC</a></li>
-        <li><a href="<?php echo esc_url(home_url('/equipos/deportivo-independiente-medellin')); ?>">Deportivo independiente Medellín</a></li>
+        <li><a href="<?php echo esc_url(home_url('/equipo/once-caldas')); ?>">Once caldas</a></li>
+        <li><a href="<?php echo esc_url(home_url('/equipo/atletico-nacional')); ?>">Atletico Nacional</a></li>
+        <li><a href="<?php echo esc_url(home_url('/equipo/millonarios-fc')); ?>">Millonarios FC</a></li>
+        <li><a href="<?php echo esc_url(home_url('/equipo/deportivo-independiente-medellin')); ?>">Deportivo independiente Medellín</a></li>
       </ul>
 
     </div>
@@ -79,10 +79,10 @@
         <li><a href="">Personajes</a></li>
         <li><a href="">Más deportes</a></li>
         <li><div class="divider"></div></li>
-        <li><a href="<?php echo esc_url(home_url('/equipos/once-caldas')); ?>">Once caldas</a></li>
-        <li><a href="<?php echo esc_url(home_url('/equipos/atletico-nacional')); ?>">Atletico Nacional</a></li>
-        <li><a href="<?php echo esc_url(home_url('/equipos/millonarios-fc')); ?>">Millonarios FC</a></li>
-        <li><a href="<?php echo esc_url(home_url('/equipos/deportivo-independiente-medellin')); ?>">Deportivo independiente Medellín</a></li>
+        <li><a href="<?php echo esc_url(home_url('/equipo/once-caldas')); ?>">Once caldas</a></li>
+        <li><a href="<?php echo esc_url(home_url('/equipo/atletico-nacional')); ?>">Atletico Nacional</a></li>
+        <li><a href="<?php echo esc_url(home_url('/equipo/millonarios-fc')); ?>">Millonarios FC</a></li>
+        <li><a href="<?php echo esc_url(home_url('/equipo/deportivo-independiente-medellin')); ?>">Deportivo independiente Medellín</a></li>
   
 
   </ul>   
