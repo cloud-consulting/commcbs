@@ -53,6 +53,11 @@ get_header(); ?>
                  <?php do_action('sidebar') ?>
         </div>
 
+
+        <div class="col s12">
+                <?php do_action('gallery_feed') ?>
+            </div>
+
             
     <div class="col s12 white">
         <?php do_action('related_post') ?>

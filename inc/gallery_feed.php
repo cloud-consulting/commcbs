@@ -19,7 +19,7 @@ foreach ($recent_posts as $recent) {
 
   <div class="card">
       <div class="card-image">
-      <img src="' . esc_url(get_the_post_thumbnail_url($recent["ID"], 'trends-grid')) . '">
+      <img src="' . esc_url(get_the_post_thumbnail_url($recent["ID"], 'comm-grid')) . '">
       <span class="card-title center-icon valign-wrapper"><i style="" class="material-icons fluid center">play_circle_filled</i></span>
 
       </div>

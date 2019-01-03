@@ -19,7 +19,7 @@
                             $the_query->the_post(); ?>
 
              <li class="collection-item avatar">
-  <img src="<?php echo get_the_post_thumbnail_url() ?>" class="circle square">
+  <img src="<?php echo get_the_post_thumbnail_url('comm-grid') ?>" class="circle square">
 
   <span class="title"><?php the_title();?></span><br>
   <small class="grey-text"><?php echo human_time_diff( get_the_time('U'), current_time('timestamp') ) . '&nbsp;'; ?>  </small>

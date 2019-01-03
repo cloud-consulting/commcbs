@@ -27,9 +27,9 @@ define('DISALLOW_FILE_EDIT', true);
 /*-----------------------------------------------------------------------------------*/
 
 add_filter('jpeg_quality', create_function('', 'return 70;'));
-add_image_size('trends-default', 800, 400, true);
-add_image_size('trends-grid', 300, 200, true);
-add_image_size('trends-square', 400, 400, true);
+add_image_size('comm-default', 800, 400, true);
+add_image_size('comm-grid', 300, 200, true);
+add_image_size('comm-square', 400, 400, true);
 
 /*-----------------------------------------------------------------------------------*/
 /* Add Supports section
