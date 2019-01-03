@@ -44,6 +44,11 @@ get_header(); ?>
                 <?php the_content();
                 ?>
                 </div>
+                
+                <div class="col s12">
+                <h3>Etiquetas</h3>
+                <?php the_tags( '<div class="chip">', '</div><div class="chip">', '</div>' ); ?>
+                </div>
 
                 <div class="col s12">
                 <h3>Casa blanca TV</h3>
