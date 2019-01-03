@@ -45,7 +45,7 @@ get_header(); ?>
                 ?>
                 </div>
                 
-                <div class="col s12">
+                <div class="col s12" style="margin: 20px 0;border-top: solid 1px #9e9e9e;border-bottom: solid 1px #9e9e9e;">
                 <h3>Etiquetas</h3>
                 <?php the_tags( '<div class="chip">', '</div><div class="chip">', '</div>' ); ?>
                 </div>
