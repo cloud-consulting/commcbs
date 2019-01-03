@@ -32,10 +32,7 @@ get_header(); ?>
         
 
                 <div class="col s12">
-                <ul class="tag blue-text"><?php wp_list_categories(array(
-                'title_li' => '',
-                'orderby' => 'name'
-                 )); ?></ul>
+                <ul class="tag blue-text"><?php the_category( ', ' ); ?></ul>
                 <span class="entry-date tag"><span class="grey-text tag">Por</span> <span class="tag"><?php the_author(); ?></span> | <?php echo get_the_date(); ?> </span>
                 </div>
 
