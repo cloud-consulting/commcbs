@@ -3,7 +3,7 @@
 <?php
 
 $args = array(
-  'numberposts' => '9',
+  'numberposts' => '10',
   'category' => '4',
   'post_status' => 'publish',
 
