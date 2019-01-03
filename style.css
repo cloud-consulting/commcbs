@@ -230,6 +230,10 @@ body {
     height: 28px;
 }
 
+.sidenav li > a {
+    color: #fff!important;
+}
+
 
 /* ad ----------------------------- */
 .ad {

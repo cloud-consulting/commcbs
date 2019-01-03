@@ -60,24 +60,32 @@
 
     <div class="nav-content hide-on-med-and-down">
       <ul class="tabs tabs-transparent blue valign-wrapper">
-        <li><a>Once calda</a></li>
-        <li><a>Atletico Nacional</a></li>
-        <li><a>Millonarios FC</a></li>
-        <li><a>Deportivo independiente Medellín</a></li>
+        <li><a href="<?php echo esc_url(home_url('/equipos/once-caldas')); ?>">Once caldas</a></li>
+        <li><a href="<?php echo esc_url(home_url('/equipos/atletico-nacional')); ?>">Atletico Nacional</a></li>
+        <li><a href="<?php echo esc_url(home_url('/equipos/millonarios-fc')); ?>">Millonarios FC</a></li>
+        <li><a href="<?php echo esc_url(home_url('/equipos/deportivo-independiente-medellin')); ?>">Deportivo independiente Medellín</a></li>
       </ul>
 
     </div>
   </nav>
 </div>
 
-  <ul id="nav-mobile" class="sidenav black">
-<?php wp_list_categories(
-  array(
-    'title_li' => '',
-    'exclude'             => '1',
-  )
-);
-?>        
+  <ul id="nav-mobile" class="sidenav black white-text">
+        <li><a href="">Selección</a></li>
+        <li><a href="">Lo nuestro</a></li>
+        <li><a href="">Internacional</a></li>
+        <li><a href="">Resultados</a></li>
+        <li><a href="">Noticias</a></li>
+        <li><a href="">Personajes</a></li>
+        <li><a href="">Más deportes</a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="<?php echo esc_url(home_url('/equipos/once-caldas')); ?>">Once caldas</a></li>
+        <li><a href="<?php echo esc_url(home_url('/equipos/atletico-nacional')); ?>">Atletico Nacional</a></li>
+        <li><a href="<?php echo esc_url(home_url('/equipos/millonarios-fc')); ?>">Millonarios FC</a></li>
+        <li><a href="<?php echo esc_url(home_url('/equipos/deportivo-independiente-medellin')); ?>">Deportivo independiente Medellín</a></li>
+  
+
+  </ul>   
 
     </header>
 
