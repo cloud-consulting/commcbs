@@ -94,6 +94,9 @@ html {
 .content {
     margin-top: 40px;
   }
+  .brand-logo {
+      margin-left: 20px
+  }
 }
 
 body {
