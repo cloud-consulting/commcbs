@@ -1,6 +1,6 @@
 
 
-<div class="col s12">
+<div class="col s12 cards-container">
 <?php $args = array(
   'numberposts' => '6',
   'offset' => '4',
@@ -10,7 +10,7 @@
 $recent_posts = wp_get_recent_posts($args);
 foreach ($recent_posts as $recent) {
   echo '
-<div class="col s12 l4">
+<div class="">
   <div class="card">
       <div class="card-image">
       <img src="' . esc_url(get_the_post_thumbnail_url($recent["ID"], 'trends-grid')) . '">
