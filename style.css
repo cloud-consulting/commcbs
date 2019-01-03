@@ -7,11 +7,11 @@ Description: Tema Privado de Trends News desarrollado por COMM Media Network S.A
 
 @font-face {
 	font-family: 'SocMed';
-	src:url('https://trendnews.com.co/fonts/SocMed.eot?-fa4xd3');
-	src:url('https://trendnews.com.co/fonts/SocMed.eot?#iefix-fa4xd3') format('embedded-opentype'),
-		url('https://trendnews.com.co/fonts/SocMed.woff?-fa4xd3') format('woff'),
-		url('https://trendnews.com.co/fonts/SocMed.ttf?-fa4xd3') format('truetype'),
-		url('https://trendnews.com.co/fonts/SocMed.svg?-fa4xd3#SocMed') format('svg');
+	src:url('./fonts/SocMed.eot?-fa4xd3');
+	src:url('./fonts/SocMed.eot?#iefix-fa4xd3') format('embedded-opentype'),
+		url('./fonts/SocMed.woff?-fa4xd3') format('woff'),
+		url('./fonts/SocMed.ttf?-fa4xd3') format('truetype'),
+		url('./fonts/SocMed.svg?-fa4xd3#SocMed') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }

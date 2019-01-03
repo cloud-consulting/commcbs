@@ -11,6 +11,7 @@
                     $args = array(
                         'post_type' => 'post',
                         'posts_per_page' => 8,
+                        'post_status' => 'publish',
                     );
                     $the_query = new WP_Query( $args );
                     if ( $the_query->have_posts() ) {

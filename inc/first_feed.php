@@ -2,6 +2,8 @@
 <?php $args = array(
   'numberposts' => '1',
   'offset' => '1',
+  'post_status' => 'publish',
+
 
 );
 

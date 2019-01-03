@@ -4,7 +4,10 @@
 
 $args = array(
   'numberposts' => '9',
-  'offset' => '1',
+  'category' => '4',
+  'post_status' => 'publish',
+
+
 
 );
 

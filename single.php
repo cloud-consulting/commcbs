@@ -69,6 +69,7 @@ get_header(); ?>
 
       <div id="share" class="modal">
     <div class="modal-content row center no-margin">
+        <h3 style="marigin-bottom:30px">Comparte</h3>
         <a href="javascript:fbshareCurrentPage()" class="col s4"><i class="material-icons s facebook large black-text"></i></a>
         <a href="javascript:twshareCurrentPage()" class="col s4"><i class="material-icons s twitter large black-text"></i></a>
         <a href="javascript:wpshareCurrentPage()" class="col s4"><i class="material-icons s whatsapp large black-text"></i></a>
