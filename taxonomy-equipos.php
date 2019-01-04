@@ -14,6 +14,15 @@ get_header(); ?>
 <div class="content">
     <div class="row">
 
+    <div class="col s12">
+<ul class="collection no-border transparent">
+    <li class="collection-item avatar">
+      <img src="images/yuna.jpg" alt="" class="circle">
+      <span class="title"><?php single_term_title(); ?></span>
+      <p></p>
+    </li>
+  </ul>
+</div>
 
             <div class="col s12">
            <div class="cards-container">
