@@ -48,13 +48,13 @@
       <a href="#" data-target="nav-mobile" class="sidenav-trigger grey darken-3"><i class="material-icons">menu</i></a>
       <a  href="#share" class="modal-trigger share"><i style="padding:0 15px;" class="material-icons white-text right hide-on-large-only">reply</i></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="">Selección</a></li>
-        <li><a href="">Lo nuestro</a></li>
-        <li><a href="">Internacional</a></li>
-        <li><a href="">Resultados</a></li>
-        <li><a href="">Noticias</a></li>
-        <li><a href="">Personajes</a></li>
-        <li><a href="">Más deportes</a></li>
+      <li><a href="<?php echo esc_url(home_url('/equipo/selección')); ?>">Selección</a></li>
+        <li><a href="<?php echo esc_url(home_url('/lo-nuestro')); ?>">Lo nuestro</a></li>
+        <li><a href="<?php echo esc_url(home_url('/internacional')); ?>">Internacional</a></li>
+        <li><a href="<?php echo esc_url(home_url('/resultados')); ?>">Resultados</a></li>
+        <li><a href="<?php echo esc_url(home_url('/noticias')); ?>">Noticias</a></li>
+        <li><a href="<?php echo esc_url(home_url('/personajes')); ?>">Personajes</a></li>
+        <li><a href="<?php echo esc_url(home_url('/mas-deportes')); ?>">Más deportes</a></li>
     </ul>
     </div>
 
@@ -71,13 +71,13 @@
 </div>
 
   <ul id="nav-mobile" class="sidenav black white-text">
-        <li><a href="">Selección</a></li>
-        <li><a href="">Lo nuestro</a></li>
-        <li><a href="">Internacional</a></li>
-        <li><a href="">Resultados</a></li>
-        <li><a href="">Noticias</a></li>
-        <li><a href="">Personajes</a></li>
-        <li><a href="">Más deportes</a></li>
+        <li><a href="<?php echo esc_url(home_url('/equipo/selección')); ?>">Selección</a></li>
+        <li><a href="<?php echo esc_url(home_url('/lo-nuestro')); ?>">Lo nuestro</a></li>
+        <li><a href="<?php echo esc_url(home_url('/internacional')); ?>">Internacional</a></li>
+        <li><a href="<?php echo esc_url(home_url('/resultados')); ?>">Resultados</a></li>
+        <li><a href="<?php echo esc_url(home_url('/noticias')); ?>">Noticias</a></li>
+        <li><a href="<?php echo esc_url(home_url('/personajes')); ?>">Personajes</a></li>
+        <li><a href="<?php echo esc_url(home_url('/mas-deportes')); ?>">Más deportes</a></li>
         <li><div class="divider"></div></li>
         <li><a href="<?php echo esc_url(home_url('/equipo/once-caldas')); ?>">Once caldas</a></li>
         <li><a href="<?php echo esc_url(home_url('/equipo/atletico-nacional')); ?>">Atletico Nacional</a></li>

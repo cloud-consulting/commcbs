@@ -1,10 +1,11 @@
 <div class="card">
             <div class="card-image">
-              <img src="<?php the_post_thumbnail_url('trends-grid'); ?>">
-              <span style="position: absolute;top: 5px;"></span>
+              <img src="<?php the_post_thumbnail_url('comm-grid'); ?>">
             </div>
-            <div class="card-content" style="padding:5px;">
-            <span class="card-title"><small><?php the_title(); ?></small></span>
+
+            <div class="card-content grey-text text-darken-4" style="padding:8px;">
+            <small><?php the_title(); ?></small>
             </div>
+
             <a href="<?php the_permalink();?>" class="view-more"></a>
           </div>
