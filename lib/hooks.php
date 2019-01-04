@@ -30,6 +30,12 @@ function second_feed()
 }
 add_action('second_feed', 'second_feed');
 
+function third_feed()
+{
+    include get_parent_theme_file_path('/inc/third_feed.php');
+}
+add_action('third_feed', 'third_feed');
+
 
 function sidebar()
 {

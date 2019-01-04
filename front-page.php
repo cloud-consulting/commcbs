@@ -10,7 +10,7 @@
 
 get_header(); ?>
 
-<div id="Content">
+<div class="content">
 	    <div class="row">
 
 

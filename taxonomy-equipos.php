@@ -11,11 +11,11 @@
 get_header(); ?>
 
 
-<div class="">
+<div class="content">
     <div class="row">
 
 
-            <div class="col s12 l8">
+            <div class="col s12">
            <div class="cards-container">
 
             <?php if (have_posts()) : ?>
@@ -37,11 +37,6 @@ get_header(); ?>
      
         <?php endif; ?>
     </div>
-
-    
-    <div class="col s12 l4">
-                 <?php do_action('first_side_feed') ?>
-        </div>
 
     </div>
 </div>
