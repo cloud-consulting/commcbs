@@ -32,8 +32,8 @@ get_header(); ?>
         
 
                 <div class="col s12">
-                <ul class="tag blue-text"><?php the_category( ', ' ); ?></ul>
-                <span class="entry-date tag"><span class="grey-text tag">Por</span> <span class="tag"><?php the_author(); ?></span> | <?php echo get_the_date(); ?> </span>
+                <ul class="tag-style blue-text"><?php the_category( ', ' ); ?></ul>
+                <span class="entry-date tag-style"><span class="grey-text tag-style">Por</span> <span class="tag-style"><?php the_author(); ?></span> | <?php echo get_the_date(); ?> </span>
                 </div>
 
                 <div class="col s12">
@@ -47,7 +47,7 @@ get_header(); ?>
                 
                 <div class="col s12" style="margin: 20px 0;border-top: solid 1px #eee;border-bottom: solid 1px #eee;    padding-bottom: 25px;">
                 <h3>Etiquetas</h3>
-                <?php the_tags( '<div class="chip">', '</div><div class="chip">', '</div>' ); ?>
+                <?php the_tag-styles( '<div class="chip">', '</div><div class="chip">', '</div>' ); ?>
                 </div>
 
                 <div class="col s12">
