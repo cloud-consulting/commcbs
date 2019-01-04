@@ -17,7 +17,7 @@ get_header(); ?>
     <div class="col s12">
 <ul class="collection no-border transparent">
     <li class="collection-item avatar">
-      <img src="images/yuna.jpg" alt="" class="circle">
+      <img src="<?php $image_data = wp_get_attachment_image_src( $image_id, 'full' ); ?>" alt="" class="circle">
       <span class="title"><?php single_term_title(); ?></span>
       <p></p>
     </li>

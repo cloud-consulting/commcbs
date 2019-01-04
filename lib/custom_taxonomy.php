@@ -78,5 +78,19 @@ function create_equipos_nonhierarchical_taxonomy() {
 }
 
 
+add_action( 'create_equipos_hierarchical_taxonomy', 'add_feature_group_field', 10, 2 );
+
+function add_feature_group_field($taxonomy) {
+    global $feature_groups;
+    ?><div class="form-field term-group">
+        <label for="featuret-group"><?php _e('Feature Group', 'my_plugin'); ?></label>
+        <select class="postform" id="equipment-group" name="feature-group">
+            <option value="-1"><?php _e('none', 'my_plugin'); ?></option><?php foreach ($feature_groups as $_group_key => $_group) : ?>
+                <option value="<?php echo $_group_key; ?>" class=""><?php echo $_group; ?></option>
+            <?php endforeach; ?>
+        </select>
+    </div><?php
+}
+
 ?>
 
