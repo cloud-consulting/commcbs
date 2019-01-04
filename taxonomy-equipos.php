@@ -17,8 +17,11 @@ get_header(); ?>
     <div class="col s12">
 <ul class="collection no-border transparent">
     <li class="collection-item avatar">
-      <img src="<?php $image_data = wp_get_attachment_image_src( $image_id, 'full' ); ?>" alt="" class="circle">
+      <img style="height: auto;" src="<?php echo get_template_directory_uri(); ?>/media/<?php single_term_slug(); ?>.png" alt="" class=" circle square" width="42">
       <span class="title"><?php single_term_title(); ?></span>
+      <ul class="tabs">
+        <li class="tab"><a class="active blue-text left-align transparent" href="#">Noticias</a></li>
+      </ul>
       <p></p>
     </li>
   </ul>
