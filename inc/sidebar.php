@@ -33,5 +33,5 @@
   </ul>     
                 </div>
 
-                <div class="ad col s12" style="height:400px">
+                <div class="ad col s12" style="height:200px">
 </div>
