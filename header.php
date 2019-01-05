@@ -43,7 +43,8 @@
 
 <div class="navbar-fixed">
     <nav class="nav-extended black">
-    <div class="nav-wrapper">
+    <div class="nav-wrapper smush">
+    
       <a href="<?php echo esc_url(home_url('/')); ?>" class="brand-logo"><img src="<?php echo get_template_directory_uri(); ?>/media/logo-casa-blanca.png"></a>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger grey darken-3"><i class="material-icons">menu</i></a>
       <a  href="#share" class="modal-trigger share"><i style="padding:0 15px;" class="material-icons white-text right hide-on-large-only">reply</i></a>
@@ -60,12 +61,13 @@
 
     <div class="nav-content hide-on-med-and-down">
       <ul class="tabs tabs-transparent blue valign-wrapper">
+      <div class="smush">
         <li><a href="<?php echo esc_url(home_url('/equipo/once-caldas')); ?>">Once caldas</a></li>
         <li><a href="<?php echo esc_url(home_url('/equipo/atletico-nacional')); ?>">Atletico Nacional</a></li>
         <li><a href="<?php echo esc_url(home_url('/equipo/millonarios-fc')); ?>">Millonarios FC</a></li>
         <li><a href="<?php echo esc_url(home_url('/equipo/deportivo-independiente-medellin')); ?>">Deportivo independiente Medellín</a></li>
       </ul>
-
+</div>
     </div>
   </nav>
 </div>
