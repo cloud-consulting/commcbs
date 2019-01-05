@@ -27,7 +27,9 @@ get_header(); ?>
   </ul>
 </div>
 
-            <div class="col s12">
+
+
+            <div class="col s12 l8">
            <div class="cards-container">
 
             <?php if (have_posts()) : ?>
@@ -49,6 +51,11 @@ get_header(); ?>
      
         <?php endif; ?>
     </div>
+
+    
+    <div class="col s12 l4">
+                 <?php do_action('sidebar') ?>
+        </div>
 
     </div>
 </div>
