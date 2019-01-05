@@ -33,6 +33,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <link rel="stylesheet" href="https://use.typekit.net/vwx1ivg.css">
 
+
+
+
     <title>
         <?php wp_title(''); ?>
     </title>

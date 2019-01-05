@@ -1,4 +1,4 @@
-<div class="carousel" style="padding-bottom: 250px!important;">
+<div class="carousel" style="padding-bottom: 290px!important;">
 
 <?php
 

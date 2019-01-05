@@ -44,7 +44,7 @@ background-color: #fff
 }
 
 html {
-    font-family: proxima-nova, sans-serif;
+    font-family: source-sans-pro, sans-serif;
   }
 
 .wp-caption {
@@ -162,7 +162,7 @@ body {
 }
 
 .carousel-item .card {
-    height: 240px!important;
+    height: 290px!important;
 }
 
 
