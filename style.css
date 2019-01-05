@@ -92,7 +92,7 @@ html {
 
 @media only screen and (min-width: 993px) {
 .content {
-    margin-top: 40px;
+    margin-top: 40px!important;
   }
   .brand-logo {
       margin-left: 20px

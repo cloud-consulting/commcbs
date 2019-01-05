@@ -69,7 +69,7 @@ get_header(); ?>
         <?php do_action('related_post') ?>
       </div>
       
-      <ul class="hide-on-med-and-down" style="position:fixed;    width: 20px;left: 40px;">
+      <ul class="hide-on-med-and-down" style="position:fixed;    width: 40px;margin-left:40px">
         <a href="javascript:fbshareCurrentPage()" class="col s4"><i class="material-icons s facebook  black-text"></i></a>
         <a href="javascript:twshareCurrentPage()" class="col s4"><i class="material-icons s twitter black-text"></i></a>
         <a href="javascript:wpshareCurrentPage()" class="col s4"><i class="material-icons s whatsapp black-text"></i></a>
