@@ -75,7 +75,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </ul>
     </div>
 
-    <div class="nav-content hide-on-med-and-down">
+    <div class="nav-content hide-on-med-and-down hide-on-team-section">
       <ul class="tabs tabs-transparent blue valign-wrapper">
       <div class="smush">
         <li><a href="<?php echo esc_url(home_url('/equipo/once-caldas')); ?>">Once caldas</a></li>
@@ -96,11 +96,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li><a href="<?php echo esc_url(home_url('/noticias')); ?>">Noticias</a></li>
         <li><a href="<?php echo esc_url(home_url('/personajes')); ?>">Personajes</a></li>
         <li><a href="<?php echo esc_url(home_url('/mas-deportes')); ?>">Más deportes</a></li>
-        <li><div class="divider"></div></li>
-        <li><a href="<?php echo esc_url(home_url('/equipo/once-caldas')); ?>">Once caldas</a></li>
-        <li><a href="<?php echo esc_url(home_url('/equipo/atletico-nacional')); ?>">Atletico Nacional</a></li>
-        <li><a href="<?php echo esc_url(home_url('/equipo/millonarios-fc')); ?>">Millonarios FC</a></li>
-        <li><a href="<?php echo esc_url(home_url('/equipo/deportivo-independiente-medellin')); ?>">Deportivo independiente Medellín</a></li>
+        <li class="hide-on-team-section"><div class="divider"></div></li>
+        <li class="hide-on-team-section" ><a href="<?php echo esc_url(home_url('/equipo/once-caldas')); ?>">Once caldas</a></li>
+        <li class="hide-on-team-section"><a href="<?php echo esc_url(home_url('/equipo/atletico-nacional')); ?>">Atletico Nacional</a></li>
+        <li class="hide-on-team-section"><a href="<?php echo esc_url(home_url('/equipo/millonarios-fc')); ?>">Millonarios FC</a></li>
+        <li class="hide-on-team-section"><a href="<?php echo esc_url(home_url('/equipo/deportivo-independiente-medellin')); ?>">Deportivo independiente Medellín</a></li>
   
 
   </ul>   
