@@ -65,9 +65,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger grey darken-3"><i class="material-icons">menu</i></a>
       <a  href="#share" class="modal-trigger share"><i style="padding:0 15px;" class="material-icons white-text right hide-on-large-only">reply</i></a>
       <ul class="right hide-on-med-and-down">
-      <li><a href="<?php echo esc_url(home_url('/equipo/selección')); ?>">Selección</a></li>
+      <li><a href="<?php echo esc_url(home_url('/equipo/seleccion-colombia')); ?>">Selección</a></li>
         <li><a href="<?php echo esc_url(home_url('/lo-nuestro')); ?>">Lo nuestro</a></li>
-        <li><a href="<?php echo esc_url(home_url('/internacional')); ?>">Internacional</a></li>
         <li><a href="<?php echo esc_url(home_url('/resultados')); ?>">Resultados</a></li>
         <li><a href="<?php echo esc_url(home_url('/noticias')); ?>">Noticias</a></li>
         <li><a href="<?php echo esc_url(home_url('/personajes')); ?>">Personajes</a></li>
@@ -89,9 +88,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
   <ul id="nav-mobile" class="sidenav black white-text">
-        <li><a href="<?php echo esc_url(home_url('/equipo/selección')); ?>">Selección</a></li>
+        <li><a href="<?php echo esc_url(home_url('/equipo/seleccion-colombia')); ?>">Selección</a></li>
         <li><a href="<?php echo esc_url(home_url('/lo-nuestro')); ?>">Lo nuestro</a></li>
-        <li><a href="<?php echo esc_url(home_url('/internacional')); ?>">Internacional</a></li>
         <li><a href="<?php echo esc_url(home_url('/resultados')); ?>">Resultados</a></li>
         <li><a href="<?php echo esc_url(home_url('/noticias')); ?>">Noticias</a></li>
         <li><a href="<?php echo esc_url(home_url('/personajes')); ?>">Personajes</a></li>
