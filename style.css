@@ -116,7 +116,7 @@ body {
     flex: 1 0 auto;
   }
 
-  .tax-equipos .hide-on-team-section {
+  .tax-equipos .hide-on-team-section, .single .hide-on-team-section  {
     display: none;
   }
 
