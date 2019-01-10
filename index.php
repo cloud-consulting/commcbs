@@ -14,6 +14,11 @@ get_header(); ?>
 <div class="content">
     <div class="row">
 
+    <div class="col s12">
+    <h1><?php if (is_home() && get_option('page_for_posts')) echo get_the_title(get_option('page_for_posts')); ?>
+                            <?php single_cat_title(''); ?></h1>
+    </div>
+
 
             <div class="col s12 l8">
            <div class="cards-container">
