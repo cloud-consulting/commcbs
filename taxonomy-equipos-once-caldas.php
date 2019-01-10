@@ -24,7 +24,6 @@ get_header(); ?>
         <li class="tab"><a class="active blue-text left-align transparent" href="<?php echo esc_url(home_url('/jugadores')); ?>">Jugadores</a></li>
         <li class="tab"><a class="active blue-text left-align transparent" href="<?php echo esc_url(home_url('/exoncecaldas')); ?>">Ex-Once Caldas</a></li>
         <li class="tab"><a class="active blue-text left-align transparent" href="<?php echo esc_url(home_url('/opinion')); ?>">Opinion</a></li>
-        <li class="tab"><a class="active blue-text left-align transparent hide" href="<?php echo esc_url(home_url('/calendario')); ?>">Calendario</a></li>
       </ul>
       <p></p>
     </li>
