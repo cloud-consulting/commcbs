@@ -20,7 +20,7 @@ get_header(); ?>
       <img style="height: auto;" src="<?php echo get_template_directory_uri(); ?>/media/once-caldas.png" alt="" class=" circle square" width="42">
       <span class="title"><?php single_term_title(); ?></span>
       <ul class="tabs">
-        <li class="tab"><a class="active blue-text left-align transparent" href="<?php echo esc_url(home_url('/categoria/once-calda')); ?>">Noticias</a></li>
+        <li class="tab"><a class="active blue-text left-align transparent" href="#">Noticias</a></li>
         <li class="tab"><a class="blue-text left-align transparent" href="<?php echo esc_url(home_url('/categoria/jugadores')); ?>">Jugadores</a></li>
         <li class="tab"><a class="blue-text left-align transparent" href="<?php echo esc_url(home_url('/categoria/ex-once-caldas')); ?>">Ex-Once Caldas</a></li>
         <li class="tab"><a class="blue-text left-align transparent" href="<?php echo esc_url(home_url('/categoria/opinion')); ?>">Opinion</a></li>
