@@ -1,4 +1,5 @@
-<div class="ad col s12" style="height:200px">
+<div class="ad col s12 center">
+<img src="<?php echo get_template_directory_uri(); ?>/media/EMAS-BANNER-LIMPIEZA-300x250px.png">
 </div>
 
 <div class="col s12 white">
@@ -33,5 +34,6 @@
   </ul>     
                 </div>
 
-                <div class="ad col s12" style="height:200px">
+                <div class="ad col s12 center">
+<img src="<?php echo get_template_directory_uri(); ?>/media/CASA-BLANCA-300x250px-MES-OCTUBRE">
 </div>
