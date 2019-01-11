@@ -102,7 +102,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <div class="col s12 center" style="margin-top:60px;">
         <div class="ads">
-            <img src="<?php echo get_template_directory_uri(); ?>/media/BANNER-WPLAY-CASA-BLANCA-ONCE-CALDAS-728x90.png">
+            <a href="https://wplay.co/" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/media/BANNER-WPLAY-CASA-BLANCA-ONCE-CALDAS-728x90.png"></a>
         </div>
     </div>
 
