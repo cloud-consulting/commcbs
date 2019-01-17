@@ -19,10 +19,6 @@ get_header(); ?>
                 <?php do_action('featured_feed') ?>
             </div>
 
-            <div class="col s12">
-                <?php do_action('gallery_feed') ?>
-            </div>
-
             <div class="col s12 no-padding">
                  <?php do_action('first_feed') ?>
             </div>
