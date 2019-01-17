@@ -1,3 +1,8 @@
+
+                <div class="ad col s12 center">
+<img src="<?php echo get_template_directory_uri(); ?>/media/CASA-BLANCA-300x250px-MES-OCTUBRE.png" >
+</div>
+
 <div class="ad col s12 center">
 <img src="<?php echo get_template_directory_uri(); ?>/media/EMAS-BANNER-LIMPIEZA-300x250px.png">
 </div>
@@ -33,7 +38,3 @@
                 ?>
   </ul>     
                 </div>
-
-                <div class="ad col s12 center">
-<img src="<?php echo get_template_directory_uri(); ?>/media/CASA-BLANCA-300x250px-MES-OCTUBRE.png" >
-</div>
