@@ -51,6 +51,10 @@ get_header(); ?>
                 </div>
 
                 <div class="col s12">
+                <div class="fb-comments" data-href="<?php the_permalink() ?>" data-numposts="10"></div>
+                </div>
+
+                <div class="col s12">
                 <h3>Casa blanca TV</h3>
                 <?php do_action('gallery_feed') ?>
             </div>
