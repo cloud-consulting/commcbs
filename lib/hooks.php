@@ -43,3 +43,10 @@ function sidebar()
 }
 add_action('sidebar', 'sidebar');
 
+
+function top_hook()
+{
+    include get_parent_theme_file_path('/inc/top_hook.php');
+}
+add_action('top_hook', 'top_hook');
+
