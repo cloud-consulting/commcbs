@@ -4,51 +4,136 @@
 /* ads
 /*-----------------------------------------------------------------------------------*/
 
-function head_ads()
+// CB_1er_HOM
+function CB_1er_HOM()
 {
-    include get_parent_theme_file_path('/ads/head_ads.php');
+    include get_parent_theme_file_path('/ads/CB_1er_HOM.php');
 }
-add_action('head_ads', 'head_ads');
+add_action('CB_1er_HOM', 'CB_1er_HOM');
 
-function sticky_left_ad()
+// CB_2ds_DPT
+
+function CB_2ds_DPT()
 {
-    include get_parent_theme_file_path('/ads/sticky_left_ad.php');
+    include get_parent_theme_file_path('/ads/CB_2ds_DPT.php');
 }
-add_action('head_ads', 'sticky_left_ad');
+add_action('CB_2ds_DPT', 'CB_2ds_DPT');
 
+// CB_2ds_INT
 
-function styky_right_ad()
+function CB_2ds_INT()
 {
-    include get_parent_theme_file_path('/ads/styky_right_ad.php');
+    include get_parent_theme_file_path('/ads/CB_2ds_INT.php');
 }
-add_action('head_ads', 'styky_right_ad');
+add_action('CB_2ds_INT', 'CB_2ds_INT');
 
+// CB_2ds_NOT
 
-function first_side_ad()
+function CB_2ds_NOT()
 {
-    include get_parent_theme_file_path('/ads/first_side_ad.php');
+    include get_parent_theme_file_path('/ads/CB_2ds_NOT.php');
 }
-add_action('first_side_ad', 'first_side_ad');
+add_action('CB_2ds_NOT', 'CB_2ds_NOT');
 
-function home_after_feature_ads()
+// CB_2ds_NUE
+
+function CB_2ds_NUE()
 {
-    include get_parent_theme_file_path('/ads/home_after_feature_ads.php');
+    include get_parent_theme_file_path('/ads/CB_2ds_NUE.php');
 }
-add_action('home_after_feature_ads', 'home_after_feature_ads');
+add_action('CB_2ds_NUE', 'CB_2ds_NUE');
 
-function home_after_video_gallery()
+// CB_2ds_PER
+
+function CB_2ds_PER()
 {
-    include get_parent_theme_file_path('/ads/home_after_video_gallery.php');
+    include get_parent_theme_file_path('/ads/CB_2ds_PER.php');
 }
-add_action('home_after_video_gallery', 'home_after_video_gallery');
+add_action('CB_2ds_PER', 'CB_2ds_PER');
 
+// CB_2ds_RES
 
-function second_side_ad()
+function CB_2ds_RES()
 {
-    include get_parent_theme_file_path('/ads/second_side_ad.php');
+    include get_parent_theme_file_path('/ads/CB_2ds_RES.php');
 }
-add_action('second_side_ad', 'second_side_ad');
+add_action('CB_2ds_RES', 'CB_2ds_RES');
 
+// CB_2ds_SEL
+
+function CB_2ds_SEL()
+{
+    include get_parent_theme_file_path('/ads/CB_2ds_SEL.php');
+}
+add_action('CB_2ds_SEL', 'CB_2ds_SEL');
+
+
+// CB_3er_MED
+
+function CB_3er_MED()
+{
+    include get_parent_theme_file_path('/ads/CB_3er_MED.php');
+}
+add_action('CB_3er_MED', 'CB_3er_MED');
+
+
+// CB_3er_MIL
+
+function CB_3er_MIL()
+{
+    include get_parent_theme_file_path('/ads/CB_3er_MIL.php');
+}
+add_action('CB_3er_MIL', 'CB_3er_MIL');
+
+
+// CB_3er_NAL
+
+function CB_3er_NAL()
+{
+    include get_parent_theme_file_path('/ads/CB_3er_MIL.php');
+}
+add_action('CB_3er_NAL', 'CB_3er_NAL');
+
+
+// CB_3er_OCL
+
+function CB_3er_OCL()
+{
+    include get_parent_theme_file_path('/ads/CB_3er_OCL.php');
+}
+add_action('CB_3er_OCL', 'CB_3er_OCL');
+
+// CB_4to_ESP
+
+function CB_4to_ESP()
+{
+    include get_parent_theme_file_path('/ads/CB_4to_ESP.php');
+}
+add_action('CB_4to_ESP', 'CB_4to_ESP');
+
+// CB_4to_HOM
+
+function CB_4to_HOM()
+{
+    include get_parent_theme_file_path('/ads/CB_4to_HOM.php');
+}
+add_action('CB_4to_HOM', 'CB_4to_HOM');
+
+// CB_4to_NOT
+
+function CB_4to_NOT()
+{
+    include get_parent_theme_file_path('/ads/CB_4to_NOT.php');
+}
+add_action('CB_4to_NOT', 'CB_4to_NOT');
+
+// CB_4to_SHP
+
+function CB_4to_SHP()
+{
+    include get_parent_theme_file_path('/ads/CB_4to_SHP.php');
+}
+add_action('CB_4to_SHP', 'CB_4to_SHP');
 
 
 ?>
