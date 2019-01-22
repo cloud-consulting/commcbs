@@ -96,12 +96,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   </ul>   
 
-  <div class="col s12 center" style="margin-top:60px;">
-        <div class="ads">
-            <a href="https://wplay.co/registro/casablanca" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/media/BANNER-WPLAY-CASA-BLANCA-ONCE-CALDAS-728x90.png"></a>
-        </div>
-    </div>
-
     </header>
 
     <main>

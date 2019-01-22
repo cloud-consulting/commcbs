@@ -1,11 +1,22 @@
+<!-- ADS 2ds -->
 
-                <div class="ad col s12 center">
-<img src="<?php echo get_template_directory_uri(); ?>/media/CASA-BLANCA-300x250px-MES-OCTUBRE.png" >
-</div>
+<?php do_action('CB_2ds_SEL') ?>
+<?php do_action('CB_2ds_NUE') ?>
+<?php do_action('CB_2ds_INT') ?>
+<?php do_action('CB_2ds_RES') ?>
+<?php do_action('CB_2ds_NOT') ?>
+<?php do_action('CB_2ds_PER') ?>
+<?php do_action('CB_2ds_DPT') ?>
+<?php do_action('CB_2ds_OCL') ?>
+<?php do_action('CB_2ds_NAL') ?>
+<?php do_action('CB_2ds_MIL') ?>
+<?php do_action('CB_2ds_MED') ?>
 
-<div class="ad col s12 center">
-<img src="<?php echo get_template_directory_uri(); ?>/media/EMAS-BANNER-LIMPIEZA-300x250px.png">
-</div>
+<!-- ADS 3er -->
+<?php do_action('CB_3er_MED') ?>
+<?php do_action('CB_3er_MIL') ?>
+<?php do_action('CB_3er_OCL') ?>
+
 
 <div class="col s12 white">
 
@@ -38,3 +49,9 @@
                 ?>
   </ul>     
                 </div>
+
+
+<?php do_action('CB_4to_HOM') ?>
+<?php do_action('CB_4to_NOT') ?>
+<?php do_action('CB_4to_ESP') ?>
+<?php do_action('CB_4to_SHP') ?>
