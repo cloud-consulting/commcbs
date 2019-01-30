@@ -4,27 +4,27 @@
             if ( is_front_page() && is_home() )  {
               // Default HOM
               do_action('CB_1er_HOM');
-            } elseif ( in_category( '1' )) {
+            } elseif ( in_category( '' )) {
               // DPT
-              do_action('CB_1er_HOM');
-            } elseif ( in_category( '2' )) {
+              do_action('');
+            } elseif ( in_category( '' )) {
               // INT
-              do_action('CB_1er_HOM');
-            } elseif ( in_category( '2' )) {
+              do_action('');
+            } elseif ( in_category( '' )) {
               // NOT
-              do_action('CB_1er_HOM');
-            } elseif ( in_category( '2' )) {
+              do_action('');
+            } elseif ( in_category( '' )) {
               // NUE
-              do_action('CB_1er_HOM');
-            } elseif ( in_category( '2' )) {
+              do_action('');
+            } elseif ( in_category( '' )) {
               // PER
-              do_action('CB_1er_HOM');
-            } elseif ( in_category( '2' )) {
+              do_action('');
+            } elseif ( in_category( '' )) {
               // RES
-              do_action('CB_1er_HOM');
-            } elseif ( in_category( '2' )) {
+              do_action('');
+            } elseif ( in_category( '' )) {
               // SEL
-              do_action('CB_1er_HOM');
+              do_action('');
             } else {
               //everything else
               do_action('CB_1er_HOM');
@@ -36,28 +36,28 @@
 <?php 
             if ( is_front_page() && is_home() )  {
               // Default HOM
-              do_action('CB_1er_HOM');
-            } elseif ( in_category( '1' )) {
+              do_action('');
+            } elseif ( in_category( '' )) {
               // DPT
-              do_action('CB_1er_HOM');
-            } elseif ( in_category( '2' )) {
+              do_action('');
+            } elseif ( in_category( '' )) {
               // INT
-              do_action('CB_1er_HOM');
-            } elseif ( in_category( '2' )) {
+              do_action('');
+            } elseif ( in_category( '' )) {
               // NOT
-              do_action('CB_1er_HOM');
-            } elseif ( in_category( '2' )) {
+              do_action('');
+            } elseif ( in_category( '' )) {
               // NUE
-              do_action('CB_1er_HOM');
-            } elseif ( in_category( '2' )) {
+              do_action('');
+            } elseif ( in_category( '' )) {
               // PER
-              do_action('CB_1er_HOM');
-            } elseif ( in_category( '2' )) {
+              do_action('');
+            } elseif ( in_category( '' )) {
               // RES
-              do_action('CB_1er_HOM');
-            } elseif ( in_category( '2' )) {
+              do_action('');
+            } elseif ( in_category( '' )) {
               // SEL
-              do_action('CB_1er_HOM');
+              do_action('');
             } else {
               //everything else
               do_action('CB_1er_HOM');
@@ -103,27 +103,27 @@
             if ( is_front_page() && is_home() )  {
               // Default HOM
               do_action('CB_1er_HOM');
-            } elseif ( in_category( '1' )) {
+            } elseif ( in_category( '' )) {
               // DPT
-              do_action('CB_1er_HOM');
-            } elseif ( in_category( '2' )) {
+              do_action('');
+            } elseif ( in_category( '' )) {
               // INT
-              do_action('CB_1er_HOM');
-            } elseif ( in_category( '2' )) {
+              do_action('');
+            } elseif ( in_category( '' )) {
               // NOT
-              do_action('CB_1er_HOM');
-            } elseif ( in_category( '2' )) {
+              do_action('');
+            } elseif ( in_category( '' )) {
               // NUE
-              do_action('CB_1er_HOM');
-            } elseif ( in_category( '2' )) {
+              do_action('');
+            } elseif ( in_category( '' )) {
               // PER
-              do_action('CB_1er_HOM');
-            } elseif ( in_category( '2' )) {
+              do_action('');
+            } elseif ( in_category( '' )) {
               // RES
-              do_action('CB_1er_HOM');
-            } elseif ( in_category( '2' )) {
+              do_action('');
+            } elseif ( in_category( '' )) {
               // SEL
-              do_action('CB_1er_HOM');
+              do_action('');
             } else {
               //everything else
               do_action('CB_1er_HOM');

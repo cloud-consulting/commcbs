@@ -11,13 +11,6 @@
 get_header(); ?>
 
 
-
-<div class="content">
-	    <div class="row">
-
-        <?php do_action('CB_1er_HOM') ?>
-
-
         <div class="col s12 l8">
             <div class="col s12">
                 <?php do_action('featured_feed') ?>
