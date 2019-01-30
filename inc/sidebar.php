@@ -1,22 +1,68 @@
 <!-- ADS 2ds -->
 
-<?php do_action('CB_2ds_SEL') ?>
-<?php do_action('CB_2ds_NUE') ?>
-<?php do_action('CB_2ds_INT') ?>
-<?php do_action('CB_2ds_RES') ?>
-<?php do_action('CB_2ds_NOT') ?>
-<?php do_action('CB_2ds_PER') ?>
-<?php do_action('CB_2ds_DPT') ?>
-<?php do_action('CB_2ds_OCL') ?>
-<?php do_action('CB_2ds_NAL') ?>
-<?php do_action('CB_2ds_MIL') ?>
-<?php do_action('CB_2ds_MED') ?>
+<?php 
+            if ( is_front_page() && is_home() )  {
+              // Default HOM
+              do_action('CB_1er_HOM');
+            } elseif ( in_category( '1' )) {
+              // DPT
+              do_action('CB_1er_HOM');
+            } elseif ( in_category( '2' )) {
+              // INT
+              do_action('CB_1er_HOM');
+            } elseif ( in_category( '2' )) {
+              // NOT
+              do_action('CB_1er_HOM');
+            } elseif ( in_category( '2' )) {
+              // NUE
+              do_action('CB_1er_HOM');
+            } elseif ( in_category( '2' )) {
+              // PER
+              do_action('CB_1er_HOM');
+            } elseif ( in_category( '2' )) {
+              // RES
+              do_action('CB_1er_HOM');
+            } elseif ( in_category( '2' )) {
+              // SEL
+              do_action('CB_1er_HOM');
+            } else {
+              //everything else
+              do_action('CB_1er_HOM');
+            }
+?>
 
 <!-- ADS 3er -->
-<?php do_action('CB_3er_MED') ?>
-<?php do_action('CB_3er_MIL') ?>
-<?php do_action('CB_3er_OCL') ?>
 
+<?php 
+            if ( is_front_page() && is_home() )  {
+              // Default HOM
+              do_action('CB_1er_HOM');
+            } elseif ( in_category( '1' )) {
+              // DPT
+              do_action('CB_1er_HOM');
+            } elseif ( in_category( '2' )) {
+              // INT
+              do_action('CB_1er_HOM');
+            } elseif ( in_category( '2' )) {
+              // NOT
+              do_action('CB_1er_HOM');
+            } elseif ( in_category( '2' )) {
+              // NUE
+              do_action('CB_1er_HOM');
+            } elseif ( in_category( '2' )) {
+              // PER
+              do_action('CB_1er_HOM');
+            } elseif ( in_category( '2' )) {
+              // RES
+              do_action('CB_1er_HOM');
+            } elseif ( in_category( '2' )) {
+              // SEL
+              do_action('CB_1er_HOM');
+            } else {
+              //everything else
+              do_action('CB_1er_HOM');
+            }
+?>
 
 <div class="col s12 white">
 
@@ -27,7 +73,7 @@
                     <?php
                     $args = array(
                         'post_type' => 'post',
-                        'posts_per_page' => 8,
+                        'posts_per_page' => '8',
                         'post_status' => 'publish',
                     );
                     $the_query = new WP_Query( $args );
@@ -35,13 +81,13 @@
                            while ( $the_query->have_posts() ) {
                             $the_query->the_post(); ?>
 
-             <li class="collection-item avatar">
-  <img src="<?php echo get_the_post_thumbnail_url() ?>" class="circle square">
+                          <li class="collection-item avatar">
+                <img src="<?php echo get_the_post_thumbnail_url() ?>" class="circle square">
 
-  <span class="title"><?php the_title();?></span><br>
-  <small class="grey-text"><?php echo human_time_diff( get_the_time('U'), current_time('timestamp') ) . '&nbsp;'; ?>  </small>
-  <a href="<?php the_permalink();?>" class="view-more"></a>
-</li>                      
+                <span class="title"><?php the_title();?></span><br>
+                <small class="grey-text"><?php echo human_time_diff( get_the_time('U'), current_time('timestamp') ) . '&nbsp;'; ?>  </small>
+                <a href="<?php the_permalink();?>" class="view-more"></a>
+              </li>                      
 
                     <?php }
                     } 
@@ -51,7 +97,35 @@
                 </div>
 
 
-<?php do_action('CB_4to_HOM') ?>
-<?php do_action('CB_4to_NOT') ?>
-<?php do_action('CB_4to_ESP') ?>
-<?php do_action('CB_4to_SHP') ?>
+  <!-- ADS 4er -->
+
+                <?php 
+            if ( is_front_page() && is_home() )  {
+              // Default HOM
+              do_action('CB_1er_HOM');
+            } elseif ( in_category( '1' )) {
+              // DPT
+              do_action('CB_1er_HOM');
+            } elseif ( in_category( '2' )) {
+              // INT
+              do_action('CB_1er_HOM');
+            } elseif ( in_category( '2' )) {
+              // NOT
+              do_action('CB_1er_HOM');
+            } elseif ( in_category( '2' )) {
+              // NUE
+              do_action('CB_1er_HOM');
+            } elseif ( in_category( '2' )) {
+              // PER
+              do_action('CB_1er_HOM');
+            } elseif ( in_category( '2' )) {
+              // RES
+              do_action('CB_1er_HOM');
+            } elseif ( in_category( '2' )) {
+              // SEL
+              do_action('CB_1er_HOM');
+            } else {
+              //everything else
+              do_action('CB_1er_HOM');
+            }
+?>
