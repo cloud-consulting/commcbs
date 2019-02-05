@@ -39,7 +39,9 @@ function CB_2ds_RES_init() { ?>
 
 <script>
   googletag.cmd.push(function() {
-    googletag.defineSlot('/21751214561/cbres5', [728, 90], 'div-gpt-ad-1548544363964-0').addService(googletag.pubads());
+    var mapping = googletag.sizeMapping().
+    addSize([728, 90].
+    googletag.defineSlot('/21751214561/cbres5' [300, 50] 'div-gpt-ad-1548544363964-0').addService(googletag.pubads());
     googletag.pubads().enableSingleRequest();
     googletag.enableServices();
   });

@@ -111,26 +111,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               do_action('CB_1er_HOM');
             } elseif ( in_category( '1' )) {
               // DPT
-              do_action('CB_1er_HOM');
+              do_action('');
             } elseif ( in_category( '2' )) {
               // INT
-              do_action('CB_1er_HOM');
+              do_action('');
             } elseif ( in_category( '2' )) {
               // NOT
-              do_action('CB_1er_HOM');
+              do_action('');
             } elseif ( in_category( '2' )) {
               // NUE
-              do_action('CB_1er_HOM');
+              do_action('');
             } elseif ( in_category( '2' )) {
               // PER
-              do_action('CB_1er_HOM');
+              do_action('');
             } elseif ( in_category( '2' )) {
               // RES
-              do_action('CB_1er_HOM');
+              do_action('');
             } elseif ( in_category( '2' )) {
               // SEL
-              do_action('CB_1er_HOM');
+              do_action('');
             } else {
               //everything else
-              do_action('CB_1er_HOM');
+              do_action('');
             }

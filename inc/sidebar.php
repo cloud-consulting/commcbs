@@ -3,7 +3,7 @@
 <?php 
             if ( is_front_page() && is_home() )  {
               // Default HOM
-              do_action('CB_1er_HOM');
+              do_action('');
             } elseif ( in_category( '' )) {
               // DPT
               do_action('');
@@ -27,7 +27,7 @@
               do_action('');
             } else {
               //everything else
-              do_action('CB_1er_HOM');
+              do_action('');
             }
 ?>
 
@@ -102,7 +102,7 @@
                 <?php 
             if ( is_front_page() && is_home() )  {
               // Default HOM
-              do_action('CB_1er_HOM');
+              do_action('');
             } elseif ( in_category( '' )) {
               // DPT
               do_action('');
@@ -126,6 +126,6 @@
               do_action('');
             } else {
               //everything else
-              do_action('CB_1er_HOM');
+              do_action('');
             }
 ?>
