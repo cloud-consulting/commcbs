@@ -5,6 +5,8 @@
   'numberposts' => '6',
   'offset' => '4',
   'post_status' => 'publish',
+  'meta_key'		=> 'featured_home',
+  'meta_value'	=> '1'
 
 );
 

@@ -3,8 +3,8 @@
   'numberposts' => '1',
   'offset' => '1',
   'post_status' => 'publish',
-
-
+  'meta_key'		=> 'featured_home',
+  'meta_value'	=> '1'
 );
 
 $recent_posts = wp_get_recent_posts($args);
@@ -30,6 +30,8 @@ wp_reset_query();
 <?php $args = array(
   'numberposts' => '2',
   'offset' => '2',
+  'meta_key'		=> 'featured_home',
+	 'meta_value'	=> '1'
 
 );
 

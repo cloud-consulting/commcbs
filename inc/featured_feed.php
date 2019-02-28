@@ -1,6 +1,8 @@
 <?php $args = array(
   'numberposts' => '1',
   'post_status' => 'publish',
+  'meta_key'		=> 'featured_feed',
+	 'meta_value'	=> '1'
 );
 
 $recent_posts = wp_get_recent_posts($args);

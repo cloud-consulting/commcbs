@@ -17,6 +17,8 @@
     <?php $args = array(
   'numberposts' => '7',
   'post_status' => 'publish',
+  'meta_key'		=> 'featured_sidebar',
+	 'meta_value'	=> '1'
 );
       $recent_posts = wp_get_recent_posts($args);
       foreach ($recent_posts as $recent) {
