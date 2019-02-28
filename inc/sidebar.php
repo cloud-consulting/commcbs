@@ -29,6 +29,7 @@
         echo '<small class="grey-text">';
         echo human_time_diff( get_the_time('U'), current_time('timestamp') ) . '&nbsp;';
         echo '</small>';
+        echo ' <a class="view-more" href="' . get_permalink($recent["ID"]) . '"></a>';
         echo '</li>';
 
       }
