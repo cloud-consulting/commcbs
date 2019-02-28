@@ -38,6 +38,72 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <?php wp_title(''); ?>
     </title>
 
+  <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/21751214561/cbhom1', [300, 250], 'div-gpt-ad-1548543273448-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest(); googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+  });
+</script>
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/21751214561/cbhom2', [300, 600], 'div-gpt-ad-1548543391736-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest(); googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+  });
+</script>
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/21751214561/cbhom3', [300, 100], 'div-gpt-ad-1548543446323-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest(); googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+  });
+</script>
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/21751214561/cbhom4', [320, 50], 'div-gpt-ad-1548543582357-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest(); googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+  });
+</script>
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/21751214561/cbhom5', [728, 90], 'div-gpt-ad-1548543616200-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest(); googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+  });
+</script>
+
     <?php wp_head();
     ?>
 

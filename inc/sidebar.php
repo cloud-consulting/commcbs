@@ -1,8 +1,8 @@
 <!-- ADS 2ds -->
+<div style="margin-top:10px">
+<?php do_action('CB_HOM_2') ?>
+</div>
 
-
-
-<!-- ADS 3er -->
 
 
 
@@ -35,3 +35,5 @@
   </ul>     
                 </div>
 
+<!-- ADS 3er -->
+                <?php do_action('CB_HOM_3') ?>

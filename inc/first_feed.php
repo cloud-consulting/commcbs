@@ -13,7 +13,7 @@ foreach ($recent_posts as $recent) {
 
   <div class="card">
       <div class="card-image">
-      <img src="' . esc_url(get_the_post_thumbnail_url($recent["ID"], 'comm-grid')) . '">
+      <img src="' . esc_url(get_the_post_thumbnail_url($recent["ID"], 'comm-defaul')) . '">
       </div>
       <div class="card-content grey-text text-darken-4">
         <p>' . $recent["post_title"] . '</p>
@@ -39,7 +39,7 @@ foreach ($recent_posts as $recent) {
 
   <div class="card">
       <div class="card-image">
-      <img src="' . esc_url(get_the_post_thumbnail_url($recent["ID"], 'comm-grid')) . '">
+      <img src="' . esc_url(get_the_post_thumbnail_url($recent["ID"], 'comm-defaul')) . '">
       </div>
       <div class="card-content grey-text text-darken-4" style="padding:8px">
         <small>' . $recent["post_title"] . '</small>
