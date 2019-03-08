@@ -7,9 +7,9 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1548543616200-0');
 
 <div class="col s12 center" style="margin-top:10px;">
         <div class="ads hide-on-small">
-            <a href="https://wplay.co/registro/casablanca" target="_blank"> <img src="<?php get_template_directory_uri() ?>/media/Banner-Casablanca-728x90.png"></a>
+            <a href="https://wplay.co/registro/casablanca" target="_blank"> <img src="<?php echo get_template_directory_uri() ?>/media/Banner-Casablanca-728x90.png"></a>
         </div>
         <div class="ads hide-on-med-and-up">
-            <a href="https://wplay.co/registro/casablanca" target="_blank"> <img src="<?php get_template_directory_uri() ?>/media/Banner-Casablanca-320x50"></a>
+            <a href="https://wplay.co/registro/casablanca" target="_blank"> <img src="<?php echo get_template_directory_uri() ?>/media/Banner-Casablanca-320x50"></a>
         </div>
     </div>
