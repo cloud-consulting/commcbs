@@ -10,7 +10,6 @@
 
 get_header(); ?>
 
-<?php do_action('CB_HOM_1') ?>
 
 
         <div class="col s12 l8">

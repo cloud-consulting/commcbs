@@ -168,6 +168,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
           <!-- ADS 1er -->
 
+          <?php do_action('CB_HOM_1') ?>
+
           <?php 
             if ( is_front_page() && is_home() )  {
               // Default HOM
