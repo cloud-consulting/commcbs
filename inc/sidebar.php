@@ -25,7 +25,7 @@
         echo '
         <li class="collection-item avatar">
                 <img src="' . esc_url(get_the_post_thumbnail_url($recent["ID"], 'comm-grid')) . '" class="circle square">
-                <span class="title">' . get_the_title() .'</span><br>';
+                <span class="title">' . $recent['post_title']  .'</span><br>';
         echo '<small class="grey-text">';
         echo human_time_diff( get_the_time('U'), current_time('timestamp') ) . '&nbsp;';
         echo '</small>';
