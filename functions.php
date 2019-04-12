@@ -130,3 +130,46 @@ function my_login_stylesheet()
     wp_enqueue_style('custom-login', get_stylesheet_directory_uri() . '/css/style-login.css');
 }
 add_action('login_enqueue_scripts', 'my_login_stylesheet');
+
+
+/*-----------------------------------------------------------------------------------*/
+/* Menú
+/*-----------------------------------------------------------------------------------*/
+
+function register_my_menus() {
+    register_nav_menus(
+      array(
+        'header-menu' => __( 'Casa Blanca Sports' ),
+        'extra-menu' => __( 'Casa Blanca OC' )
+      )
+    );
+  }
+  add_action( 'init', 'register_my_menus' );
+
+
+/*-----------------------------------------------------------------------------------*/
+/* Registre
+/*-----------------------------------------------------------------------------------*/
+
+  add_action( 'widgets_init', 'theme_slug_widgets_init' );
+function theme_slug_widgets_init() {
+    register_sidebar( array(
+        'name' => __( 'Home Casa Blanca Sports', 'theme-slug' ),
+        'id' => 'sidebar-1',
+        'description' => __( 'Widgets in this area will be shown on all posts and pages.', 'theme-slug' ),
+        'before_widget' => '<li id="%1$s" class="widget %2$s">',
+	'after_widget'  => '</li>',
+	'before_title'  => '<h2 class="widgettitle">',
+	'after_title'   => '</h2>',
+    ));
+
+    register_sidebar( array(
+        'name' => __( 'Home Casa Blanca OC', 'theme-slug' ),
+        'id' => 'sidebar-2',
+        'description' => __( 'Widgets in this area will be shown on all posts and pages.', 'theme-slug' ),
+        'before_widget' => '<li id="%1$s" class="widget %2$s">',
+	'after_widget'  => '</li>',
+	'before_title'  => '<h2 class="widgettitle">',
+	'after_title'   => '</h2>',
+    ));
+}
