@@ -27,3 +27,12 @@ function CB_HOM_3()
     include get_parent_theme_file_path('/ads/HOM/CB_HOM_3.php');
 }
 add_action('CB_HOM_3', 'CB_HOM_3');
+
+
+// CB_HOM_4
+
+function CB_HOM_4()
+{
+    include get_parent_theme_file_path('/ads/HOM/CB_HOM_4.php');
+}
+add_action('CB_HOM_4', 'CB_HOM_4');
