@@ -40,7 +40,7 @@ get_header(); ?>
                 <h1 class="title-entry"><?php the_title(); ?></h1>
                 </div>
 
-                <?php do_action('CB_HOM_4'); ?>
+              
 
                 <div class="col s12">
                 <?php the_content();
