@@ -151,7 +151,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <li><a href="<?php echo esc_url(home_url('/personajes')); ?>">Personajes</a></li>
         <li><a href="<?php echo esc_url(home_url('/mas-deportes')); ?>">Más deportes</a></li>
         <li class="hide-on-team-section"><div class="divider"></div></li>
-        <li class="hide-on-team-section" ><a href="<?php echo esc_url(home_url('/equipo/once-caldas')); ?>">Once caldas</a></li>
+        <li class="hide-on-team-section" ><a href="<?php echo esc_url(home_url('/equipo/once-caldas')); ?>">Once Caldas</a></li>
         <li class="hide-on-team-section"><a href="<?php echo esc_url(home_url('/equipo/atletico-nacional')); ?>">Atletico Nacional</a></li>
         <li class="hide-on-team-section"><a href="<?php echo esc_url(home_url('/equipo/millonarios-fc')); ?>">Millonarios FC</a></li>
         <li class="hide-on-team-section"><a href="<?php echo esc_url(home_url('/equipo/deportivo-independiente-medellin')); ?>">Deportivo independiente Medellín</a></li>
