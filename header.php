@@ -133,7 +133,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="nav-content hide-on-med-and-down hide-on-team-section">
       <ul class="tabs tabs-transparent blue valign-wrapper">
       <div class="smush">
-        <li><a href="<?php echo esc_url(home_url('/equipo/once-caldas')); ?>">Once caldas</a></li>
+        <li><a href="<?php echo esc_url(home_url('/equipo/once-caldas')); ?>">Once Caldas</a></li>
         <li><a href="<?php echo esc_url(home_url('/equipo/atletico-nacional')); ?>">Atletico Nacional</a></li>
         <li><a href="<?php echo esc_url(home_url('/equipo/millonarios-fc')); ?>">Millonarios FC</a></li>
         <li><a href="<?php echo esc_url(home_url('/equipo/deportivo-independiente-medellin')); ?>">Deportivo independiente Medellín</a></li>
