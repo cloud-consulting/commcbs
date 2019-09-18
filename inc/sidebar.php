@@ -8,6 +8,10 @@
 <?php do_action('CB_HOM_3') ?>
 
 
+<!-- ADS 5er -->
+<?php do_action('CB_HOM_5') ?>
+
+
 
 <div class="col s12 white">
 

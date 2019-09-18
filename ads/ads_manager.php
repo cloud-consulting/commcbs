@@ -36,3 +36,12 @@ function CB_HOM_4()
     include get_parent_theme_file_path('/ads/HOM/CB_HOM_4.php');
 }
 add_action('CB_HOM_4', 'CB_HOM_4');
+
+
+// CB_HOM_5 - Tu equipo lo llevas
+
+function CB_HOM_5()
+{
+    include get_parent_theme_file_path('/ads/HOM/CB_HOM_5.php');
+}
+add_action('CB_HOM_5', 'CB_HOM_5');
