@@ -25,13 +25,15 @@ get_header(); ?>
 
             <?php if (have_posts()) : ?>
             <?php while (have_posts()) : the_post();
-            ?>
-            
-    <?php next_posts_link(); ?>
+            ?>              
 
      <?php do_action('third_feed') ?>
 
             <?php endwhile; ?>
+
+<?php next_posts_link(); ?>
+.
+
         </div>
 
            <div class="row no-margin">
