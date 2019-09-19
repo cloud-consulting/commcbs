@@ -10,38 +10,31 @@
 
 get_header(); ?>
 
+<div class="content">
+    <div class="row">
 
+<div class="col s12 l8">
+    <div class="col s12">
+        <?php do_action('featured_feed') ?>
+    </div>
 
-        <div class="col s12 l8">
-            <div class="col s12">
-                <?php do_action('featured_feed') ?>
-            </div>
-
-            <div class="col s12 no-padding">
+    <div class="col s12 no-padding">
                  <?php do_action('first_feed') ?>
-            </div>
+    </div>
 
-            <div class="col s12 no-padding">
+    <div class="col s12 no-padding">
                  <?php do_action('second_feed') ?>
-            </div>
+    </div>
 
-        </div>
+</div>
 
-        <div class="col s12 l4">
+<div class="col s12 l4">
             <?php do_action('sidebar') ?>
-        </div>
-
-        
-
-
-
-
+</div>
 
             <?php if (have_posts()) : ?>
             <?php while (have_posts()) // Post Loop
-            : the_post(); ?>
-
-                 <?php do_action('third_feed') ?>
+            : the_post(); ?>            
 
             <?php endwhile; ?>
 
