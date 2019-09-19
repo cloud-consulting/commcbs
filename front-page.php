@@ -38,6 +38,7 @@ get_header(); ?>
 
             <?php endwhile; ?>
 
+            <?php echo paginate_links(); ?>
 
             <div class="row no-margin">
                 <div class="col s12">
