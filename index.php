@@ -31,9 +31,6 @@ get_header(); ?>
 
             <?php endwhile; ?>
 
-<?php next_posts_link(); ?>
-.
-
         </div>
 
            <div class="row no-margin">

@@ -41,6 +41,10 @@ get_header(); ?>
             <?php while (have_posts()) // Post Loop
             : the_post(); ?>
             <?php endwhile; ?>
+
+<?php next_posts_link(); ?>
+.
+
         <?php endif; ?>
 
 
