@@ -139,7 +139,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <a  href="#share" class="modal-trigger share"><i style="padding:0 15px;" class="material-icons white-text right hide-on-large-only">reply</i></a>
       <ul class="right hide-on-med-and-down">
       <li><a href="<?php echo esc_url(home_url('/equipo/seleccion-colombia')); ?>">Selección</a></li>
-        <li><a href="<?php echo esc_url(home_url('/')); ?>">Noticias.</a></li>
+        <li><a href="<?php echo esc_url(home_url('/')); ?>">Noticias</a></li>
         <li><a href="<?php echo esc_url(home_url('/categoria/mas-deportes')); ?>">Más deportes</a></li>
     </ul>
     </div>
