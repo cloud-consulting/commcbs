@@ -40,6 +40,9 @@ get_header(); ?>
             <?php if (have_posts()) : ?>
             <?php while (have_posts()) // Post Loop
             : the_post(); ?>
+
+                 <?php do_action('third_feed') ?>
+
             <?php endwhile; ?>
 
 
