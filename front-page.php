@@ -42,8 +42,13 @@ get_header(); ?>
             : the_post(); ?>
             <?php endwhile; ?>
 
-<?php next_posts_link(); ?>
-.
+
+            <div class="row no-margin">
+                <div class="col s12">
+                    <?php wpbeginner_numeric_posts_nav(); ?>
+                </div>
+            </div>
+
 
         <?php endif; ?>
 
