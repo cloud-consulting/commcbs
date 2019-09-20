@@ -32,39 +32,15 @@ get_header(); ?>
             <?php do_action('sidebar') ?>
 </div>
 
-<?php
-global $wp_query, $paged;
- 
- // Paged Parameter
- $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-  
- // The Query
- $query = new WP_Query( $args );
-  
- // The Loop
- if ( $wp_query->have_posts() ) {
-     while ( $wp_query->have_posts() ) {
-         $wp_query>the_post();
-          
-         // Your Post Data
-      
-     }
-  
-     // Your Navigation Code
-  
- }
- ?>
 
-
-            <?php 
-            /*
-            if (have_posts()) :
-             while (have_posts()) // Post Loop
+<?php 
+            
+    if (have_posts()) :
+        while (have_posts()) // Post Loop
             : the_post();            
 
-            endwhile; 
-            */
-            ?>
+        endwhile;             
+?>
 
             <?php echo paginate_links(); ?>
 
@@ -75,7 +51,7 @@ global $wp_query, $paged;
             </div>
 
 
-        <?php endif; ?>
+    <?php endif; ?>
 
 
 
