@@ -31,14 +31,7 @@ get_header(); ?>
 
             <?php endwhile; ?>
 
-        </div>
-
-           <div class="row no-margin">
-            <div class="col s12">
-            <?php wpbeginner_numeric_posts_nav(); ?>
-            </div>
-        </div>
-
+        </div>         
      
         <?php endif; ?>
     </div>
