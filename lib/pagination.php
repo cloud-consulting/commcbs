@@ -3,9 +3,7 @@
 /* Pagination
 /*-----------------------------------------------------------------------------------*/
 function wpbeginner_numeric_posts_nav()
-{
-    echo "page test";
-
+{    
     if (is_singular())
         return;
     global $wp_query, $paged;
@@ -13,7 +11,7 @@ function wpbeginner_numeric_posts_nav()
     if ($wp_query->max_num_pages <= 1)
         return;
     $paged = get_query_var('paged') ? absint(get_query_var('paged')) : 1;
-    echo $paged;
+    
     $max = intval($wp_query->max_num_pages);
     /** Add current page to the array */
     if ($paged >= 1)
