@@ -11,9 +11,6 @@ get_header(); ?>
 <div>
 
     <div>
-
-        11112
-
         <?php if (have_posts()) :
         ?>
 
