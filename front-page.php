@@ -28,30 +28,31 @@ get_header(); ?>
 
 </div>
 
-<div class="col s12 l4">
-            <?php do_action('sidebar') ?>
-</div>
+    <div class="col s12 l8">
+			<div class="cards-container">
 
+				<?php if (have_posts()) : ?>
+				<?php while (have_posts()) : the_post(); ?>            
 
-<?php 
-            
-    if (have_posts()) :
-        while (have_posts()) // Post Loop
-            : the_post();            
+				<?php do_action('third_feed') ?>
 
-        endwhile;             
-?>
+				<?php endwhile; ?>
+			
+			</div>
 
-            <?php echo paginate_links(); ?>
+			<div class="row no-margin">
+				<div class="col s12">
+					<?php wpbeginner_numeric_posts_nav(); ?>
+				</div>
+			</div>
+		 
+				<?php endif; ?>
+		</div>
 
-            <div class="row no-margin">
-                <div class="col s12">
-                    <?php wpbeginner_numeric_posts_nav(); ?>
-                </div>
-            </div>
-
-
-    <?php endif; ?>
+		
+		<div class="col s12 l4">
+					 <?php do_action('sidebar') ?>
+		</div>
 
 
 
