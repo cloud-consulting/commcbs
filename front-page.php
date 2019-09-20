@@ -28,13 +28,17 @@ get_header(); ?>
 
 </div>
 
+    <div class="col s12 l4">
+		 <?php do_action('sidebar') ?>
+	</div>
+
     <div class="col s12 l8">
 			<div class="cards-container">
 
 				<?php if (have_posts()) : ?>
 				<?php while (have_posts()) : the_post(); ?>            
 
-				<?php do_action('third_feed') ?>
+				<?php do_action('third_feed'); ?>
 
 				<?php endwhile; ?>
 			
@@ -48,14 +52,6 @@ get_header(); ?>
 		 
 				<?php endif; ?>
 		</div>
-
-		
-		<div class="col s12 l4">
-					 <?php do_action('sidebar') ?>
-		</div>
-
-
-
 
     </div>
 </div>
