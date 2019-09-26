@@ -13,45 +13,43 @@ get_header(); ?>
 <div class="content">
     <div class="row">
 
-<div class="col s12 l8">
-    <div class="col s12">
-        <?php do_action('featured_feed') ?>
-    </div>
+        <div class="col s12 l8">
+            <div class="col s12">
+                <?php do_action('featured_feed') ?>
+            </div>
 
-    <div class="col s12 no-padding">
-                 <?php do_action('first_feed') ?>
-    </div>
+            <div class="col s12 no-padding">
+                <?php do_action('first_feed') ?>
+            </div>
 
-    <div class="col s12 no-padding">
-                 <?php do_action('second_feed') ?>
-    </div>
+            <div class="col s12 no-padding">
+                <?php do_action('second_feed') ?>
+            </div>
 
-</div>
+        </div>
 
-    <div class="col s12 l4">
-		 <?php do_action('sidebar') ?>
-	</div>
+        
 
-    <div class="col s12 l8">
-			<div class="cards-container">
+        <div class="col s12 l8">
+            <div class="cards-container">
 
-				<?php if (have_posts()) : ?>
-				<?php while (have_posts()) : the_post(); ?>            
+                <?php if (have_posts()) : ?>
+                <?php while (have_posts()) : the_post(); ?>
 
-				<?php do_action('third_feed'); ?>
+                <?php do_action('third_feed'); ?>
 
-				<?php endwhile; ?>
-			
-			</div>
+                <?php endwhile; ?>
 
-			<div class="row no-margin">
-				<div class="col s12">
-					<?php wpbeginner_numeric_posts_nav(); ?>
-				</div>
-			</div>
-		 
-				<?php endif; ?>
-		</div>
+            </div>
+
+            <div class="row no-margin">
+                <div class="col s12">
+                    <?php wpbeginner_numeric_posts_nav(); ?>
+                </div>
+            </div>
+
+            <?php endif; ?>
+        </div>
 
     </div>
 </div>
