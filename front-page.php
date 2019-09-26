@@ -15,11 +15,11 @@ get_header(); ?>
 
         <div class="col s12 l8">
             <div class="col s12">
-                <?php do_action('featured_feed') ?>
+                <?php //do_action('featured_feed'); ?>
             </div>
 
             <div class="col s12 no-padding">
-                <?php //do_action('first_feed'); ?>
+                <?php //do_action('first_feed'); //las primeras noticias?>
             </div>
 
             <div class="col s12 no-padding">
