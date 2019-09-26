@@ -23,7 +23,7 @@ get_header(); ?>
             </div>
 
             <div class="col s12 no-padding">
-                <?php do_action('second_feed') ?>
+                <?php //do_action('second_feed'); ?>
             </div>
 
         </div>
@@ -49,6 +49,10 @@ get_header(); ?>
             </div>
 
             <?php endif; ?>
+        </div>
+
+		<div class="col s12 l4">
+            <?php do_action('sidebar') ?>
         </div>
 
     </div>
