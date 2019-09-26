@@ -19,7 +19,7 @@ get_header(); ?>
             </div>
 
             <div class="col s12 no-padding">
-                <?php do_action('first_feed') ?>
+                <?php //do_action('first_feed'); ?>
             </div>
 
             <div class="col s12 no-padding">
